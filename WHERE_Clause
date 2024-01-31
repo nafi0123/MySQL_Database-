@@ -1,0 +1,18 @@
+SELECT City FROM student_details WHERE Gender='male';
+
+
+
+SELECT DISTINCT City FROM student_details WHERE Gender='male';
+
+
+
+
+SELECT DISTINCT City 
+FROM student_details 
+WHERE Gender='male' 
+ORDER BY Name DESC;
+
+
+SELECT *
+FROM student_details
+WHERE Age =18;
