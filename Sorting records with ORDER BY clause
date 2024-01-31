@@ -1,0 +1,15 @@
+SELECT Name,GPA,Gender
+FROM student_details
+ORDER BY Name;
+
+
+
+SELECT Name,GPA,Gender
+FROM student_details
+ORDER BY Name DESC;
+
+
+
+SELECT Name,GPA,Gender
+FROM student_details
+ORDER BY Name,GPA DESC;
