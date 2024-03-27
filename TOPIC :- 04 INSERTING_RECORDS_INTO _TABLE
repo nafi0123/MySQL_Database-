@@ -1,9 +1,13 @@
 INSERT INTO student_details
 (Roll,Name,Gender,Age,GPA,City)
 VALUES(101,"Rafi","Male",18,3.44,"Barishal");
+
+
 INSERT INTO student_details
 (Roll,Name,Gender,Age,GPA,City)
 VALUES(102,"Nafi","Male",18,3.50,"Barishal");
+
+
 INSERT INTO student_details
 VALUES(103,"Abdullah","Male",18,4.00,"Dhaka"),
 (104,"Munna","Male",19,4.00,"Barishal"),
