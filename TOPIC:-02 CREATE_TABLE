@@ -1,0 +1,10 @@
+CREATE TABLE student
+(
+    Roll int,
+    Name varchar(15),
+    Gender varchar(10),
+    Age int(3),
+    GPA double(3,2),
+    City varchar(15),
+    PRIMARY KEY(Roll)
+);
