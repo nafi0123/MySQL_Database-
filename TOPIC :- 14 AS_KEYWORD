@@ -1,0 +1,3 @@
+SELECT Name AS "FIRST NAME" ,Roll AS ID
+FROM
+student_details;
