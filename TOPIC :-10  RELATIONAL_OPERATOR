@@ -1,0 +1,11 @@
+SELECT Roll,Name,GPA
+FROM student_details
+WHERE Roll BETWEEN 102 AND 105;
+
+SELECT Roll,Name,GPA
+FROM student_details
+WHERE Roll=102;
+
+SELECT Roll,Name,GPA
+FROM student_details
+WHERE Roll!=102;
