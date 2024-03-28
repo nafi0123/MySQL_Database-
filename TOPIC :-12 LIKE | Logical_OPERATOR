@@ -1,0 +1,19 @@
+SELECT * 
+FROM student_details
+WHERE Name LIKE "A%";
+
+SELECT *
+FROM student_details
+WHERE Name LIKE "%i";
+
+SELECT *
+FROM student_details
+WHERE Name LIKE "%a%";
+
+SELECT *
+FROM student_details
+WHERE Name LIKE "_a%";
+
+SELECT *
+FROM student_details
+WHERE Name LIKE "%a_";
