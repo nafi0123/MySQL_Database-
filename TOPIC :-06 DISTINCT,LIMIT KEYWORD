@@ -3,4 +3,8 @@ FROM student_details;
 
 SELECT *
 FROM student_details
+LIMIT 5;
+
+SELECT *
+FROM student_details
 LIMIT 2,5;
