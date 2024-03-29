@@ -1,0 +1,4 @@
+SELECT CONCAT("WELLCOME TO " ,"MYSQL DATABASE");
+
+SELECT CONCAT(Name, " IS ", Age, " YEARS OLD.")
+FROM student_details;
