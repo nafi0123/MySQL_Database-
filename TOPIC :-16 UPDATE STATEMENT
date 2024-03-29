@@ -1,0 +1,3 @@
+UPDATE teacher
+SET Salary=60000.00
+WHERE ID=1002;
