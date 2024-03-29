@@ -1,0 +1,36 @@
+CREATE TABLE teacher(
+    ID int,
+    NAME varchar(15)
+);
+
+INSERT INTO teacher(ID,NAME)
+    VALUES(1000,"Sabbir Ahmad");
+
+INSERT INTO teacher(NAME)
+    VALUES("Atik Rahman");
+
+DROP TABLE teacher;
+
+CREATE TABLE teacher(
+    ID int NOT NULL AUTO_INCREMENT,
+    Name varchar(15) NOT NULL,
+    Salary double(10,2),
+    PRIMARY KEY(ID)
+);
+
+INSERT INTO teacher(ID,Name,Salary)
+VALUES(1000,"Sabbir Ahmad",35000.00);
+
+INSERT INTO teacher(Name,Salary)
+VALUES("Hasan Rafi Ahmed ",35000.00);
+
+
+INSERT INTO teacher(Name)
+VALUES("Nasrullah ");
+
+
+INSERT INTO teacher(Name,Salary)
+VALUES("Rubel ",50000.00),
+("Rayhan ",20000.00),
+("Jakaria ",40000.00),
+("saullah ",5000.00);
