@@ -1,0 +1,9 @@
+SELECT UPPER("i am Nafi mahmud bukhari")
+
+SELECT LOWER("I AM Nafi mahmud BUKHARI")
+
+SELECT UPPER (City)
+FROM student_details;
+
+SELECT UPPER (City) AS CITY_NEW_NAME
+FROM student_details;
