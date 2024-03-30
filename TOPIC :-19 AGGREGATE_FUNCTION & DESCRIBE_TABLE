@@ -1,0 +1,25 @@
+DESCRIBE teacher;
+
+SELECT COUNT(*)
+FROM student_details;
+
+SELECT MAX(GPA)
+FROM student_details;
+
+SELECT MIN(GPA)
+FROM student_details;
+
+SELECT SUM(Salary),AVG(Salary)
+FROM teacher;
+
+SELECT COUNT(*),
+MAX(Salary),MIN(Salary),SUM(Salary),AVG(Salary)
+FROM teacher;
+
+SELECT MIN(GPA)
+FROM student_details
+WHERE Gender="Female";
+
+SELECT Roll,Name,Age,City,MIN(GPA)
+FROM student_details
+WHERE Gender="Female";
