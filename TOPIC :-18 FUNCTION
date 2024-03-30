@@ -1,0 +1,36 @@
+SELECT UPPER("i am Nafi mahmud bukhari")
+
+SELECT LOWER("I AM Nafi mahmud BUKHARI")
+
+SELECT UPPER (City)
+FROM student_details;
+
+SELECT UPPER (City) AS CITY_NEW_NAME
+FROM student_details;
+
+
+SELECT CONCAT("WELLCOME TO " ,"MYSQL DATABASE");
+
+SELECT CONCAT(Name, " IS ", Age, " YEARS OLD.")
+FROM student_details;
+
+SELECT CONCAT(Name, " IS ", Age, " YEARS OLD.") AS STUDENT
+FROM student_details;
+
+SELECT GREATEST(10,20,50)
+
+SELECT LEAST(10,20,-5)
+
+SELECT POW(2,3);
+
+SELECT LOG(2);
+
+SELECT LOG10(2);
+
+SELECT TRUNCATE(10.222222222222,2);
+
+SELECT TRUNCATE(LOG(10),2);
+
+SELECT RAND();
+
+SELECT EXP(2);
