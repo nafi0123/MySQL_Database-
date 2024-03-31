@@ -1,0 +1,7 @@
+SELECT NSI.Roll,ER.Reg_Number,NSI.Name,NSI.Gender,ER.Group_Name,ER.GPA
+FROM new_student_info AS NSI LEFT JOIN exam_result AS ER
+ON NSI.Roll=ER.Roll;
+
+SELECT NSI.Roll,ER.Reg_Number,NSI.Name,NSI.Gender,ER.Group_Name,ER.GPA
+FROM new_student_info AS NSI RIGHT JOIN exam_result AS ER
+ON NSI.Roll=ER.Roll;
