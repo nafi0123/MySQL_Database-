@@ -1,0 +1,10 @@
+INSERT INTO new_student_info(Name,Gender,Age)
+VALUES
+("Rafi","Male",22),
+("Sweety","Female",25),
+("Rofiq","Male",22),
+("Nafi","Male",25);
+
+SELECT NSI.Roll,ER.Reg_Number,NSI.Name,NSI.Gender,ER.Group_Name,ER.GPA
+FROM new_student_info AS NSI INNER JOIN exam_result AS ER
+ON NSI.Roll=ER.Roll;
