@@ -1,0 +1,11 @@
+ALTER TABLE teacher
+ADD Age int(5);
+
+ALTER TABLE teacher
+ADD Dept varchar(15);
+
+ALTER TABLE teacher
+CHANGE   Depertment  Department varchar(15);
+
+ALTER TABLE teacher
+DROP COLUMN Age;
