@@ -1,0 +1,38 @@
+CREATE TABLE New_Student_info(
+    Roll int(5) NOT NULL AUTO_INCREMENT,
+    Name varchar(15),
+    Gender varchar(15),
+    Age int (5),
+    PRIMARY KEY(Roll)
+    );
+
+INSERT INTO new_student_info (Roll,Name,Gender,Age)
+VALUES
+(
+    101,"Rahim","Male",18
+);
+
+INSERT INTO new_student_info (Name,Gender,Age)
+VALUES
+("Farjana","Female",17),
+("Mahfuz","Male",18),
+("Farjana","Female",18);
+
+CREATE TABLE Exam_result(
+    Reg_Number int(5) NOT NULL ,
+    Roll int(5),
+    GPA double(3,2),
+    Group_Name varchar(15),
+    PRIMARY KEY(Reg_Number)
+    );
+
+INSERT INTO exam_result(Reg_Number,Roll,GPA,Group_Name)
+VALUES 
+(20171,102,3.25,"Science"),
+(20172,101,3.44,"Arts"),
+(20173,103,4.00,"Science"),
+(20174,104,5,"Commerce");
+
+SELECT new_student_info.Roll,Reg_Number,Name,Gender,Group_Name,GPA
+FROM new_student_info,exam_result
+WHERE new_student_info.Roll=exam_result.Roll;
