@@ -22,5 +22,25 @@ VALUES(101,"Abdullah","Male",18),
 (103,"Abdur Rahman","Male",19),
 (104,"Munna","Male",20);
 
+INSERT INTO dhaka_tour
+VALUES(104,"Munna","Male",20),
+(105,"Farjana","Femaale",20),
+(106,"Shakila","Female",19),
+(107,"Mahfuza","Female",20);
 
 
+SELECT Roll,Name,Gender
+FROM sylhet_tour
+
+UNION
+
+SELECT Roll,Name,Gender
+FROM dhaka_tour;
+
+SELECT Roll,Name,Gender
+FROM sylhet_tour
+
+UNION ALL
+
+SELECT Roll,Name,Gender
+FROM dhaka_tour;
