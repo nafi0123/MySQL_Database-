@@ -1,0 +1,6 @@
+SELECT curtime();
+SELECT curdate();
+SELECT NOW();
+SELECT adddate("2024-04-01",INTERVAL 5 day);
+SELECT subdate("2024-04-01",INTERVAL 5 day);
+SELECT Makedate(2024,265);
