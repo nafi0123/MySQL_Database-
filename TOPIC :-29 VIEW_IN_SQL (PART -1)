@@ -1,0 +1,9 @@
+CREATE VIEW new_student_info_view AS
+SELECT Roll,Name,Gender
+FROM new_student_info;
+
+SELECT *
+FROM new_student_info_view;
+
+SELECT Roll,Name
+FROM new_student_info_view;
