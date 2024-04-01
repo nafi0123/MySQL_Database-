@@ -1,0 +1,26 @@
+CREATE TABLE Sylhet_tour
+(
+    Roll int,
+    Name varchar(15),
+    Gender varchar(10),
+    Age int(3),
+    PRIMARY KEY(Roll)
+);
+
+CREATE TABLE Dhaka_tour
+(
+    Roll int,
+    Name varchar(15),
+    Gender varchar(10),
+    Age int(3),
+    PRIMARY KEY(Roll)
+);
+
+INSERT INTO sylhet_tour
+VALUES(101,"Abdullah","Male",18),
+(102,"Munna","Male",20),
+(103,"Abdur Rahman","Male",19),
+(104,"Munna","Male",20);
+
+
+
