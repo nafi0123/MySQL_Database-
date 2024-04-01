@@ -1,0 +1,11 @@
+UPDATE new_student_info_view
+SET Name="Abdullah"
+WHERE Roll=108;
+
+INSERT INTO new_student_info_view(Roll,Name,Gender)
+VALUES(109,"Hasina","Female");
+
+DELETE FROM new_student_info_view
+WHERE Roll=108;
+
+DROP VIEW new_student_info_view ;
